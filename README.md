@@ -32,6 +32,7 @@
 --README.md  文档
 
 ## UI 界面
+![](https://github.com/Mr-houzi/GetTicketAssistant/blob/master/doc/UI-render.jpg)
 
 ## To optimize 待优化
 1.采用MD5加密座号代码code
