@@ -1,9 +1,0 @@
-<view>
-    <view class="lp-button">
-        <button size="default" type="primary" bindtap="jumpToTicket" form-type="submit">领票（单票）</button>
-    </view>
-
-    <view class="bl-button">
-        <button size="default" type="primary" bindtap="jumpToDoubleTicket" form-type="submit">帮好友领票（连票）</button>
-    </view>
-</view>
