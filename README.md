@@ -1,19 +1,21 @@
 # GetTicketAssistan 微信小程序领票小助手
 
 ## Contents 目录
-- Introduction 介绍
-- Use 使用
-- Version 版本
-- Construction 项目结构
-- UI 界面
-- To optimize 待优化
-- Explain 说明
+- [Introduction 介绍](#Introduction)
+- [Use 使用](#Use)
+- [Version 版本](#Version)
+- [Construction 项目结构](#Construction)
+- [UI 界面](#UI)
+- [To optimize 待优化](#To)
+- [Explain 说明](#Explain)
 
+<a name="Introduction"></a>
 ## Introduction 介绍
 领票小助手，是一款在线领取二维码门票的微信小程序。用户可以通过绑定的微信公众号或者搜索小程序名等方式进入领票小助手。通过此软件用户可以在线领取二维码形式的电子门票（二维码即门票）。晚会或者活动前，用户出示二维码门票给工作人员，工作人员扫码进行检票。检票成功后，用户可进入场馆，参加晚会或者活动。
 
 此项目为领票系统，检票系统，在稍后开源。
 
+<a name="Use"></a>
 ## Use 使用
 ### 安装 
 使用wafer一站式服务器或者自己搭建小程序服务器
@@ -21,9 +23,11 @@
 ### 技术 
 后端使用PHP语言完成，运用了Thinkphp3.2框架
 
+<a name="Version"></a>
 ## Version 版本
 当前版本v2.1
 
+<a name="Construction"></a>
 ## Construction 项目结构
 --client  小程序端
 
@@ -35,9 +39,11 @@
 
 --README.md  文档
 
+<a name="UI"></a>
 ## UI 界面
 ![](https://github.com/Mr-houzi/GetTicketAssistant/blob/master/doc/UI-render.jpg)
 
+<a name="To"></a>
 ## To optimize 待优化
 1.采用MD5加密座号代码code
 
@@ -48,6 +54,7 @@
 
 4.处理高并发
 
+<a name="Explain"></a>
 ## Explain 说明
 此系统是我为学校新年晚会开发的在线领票系统，开发时间紧张，由很多不足之处，如果有兴趣的朋友，欢迎来一起PR。
 
