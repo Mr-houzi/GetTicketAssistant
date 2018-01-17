@@ -26,9 +26,13 @@
 
 ## Construction 项目结构
 --client  小程序端
+
 --server  服务器端
+
 --data  数据库文件 
+
 --project.config.json  小程序配置文件
+
 --README.md  文档
 
 ## UI 界面
@@ -36,9 +40,12 @@
 
 ## To optimize 待优化
 1.采用MD5加密座号代码code
+
 2.优化多人领票UI
 每前端点击+号，增加一人身份验证输入框
+
 3.优化门票生成算法
+
 4.处理高并发
 
 ## Explain 说明
