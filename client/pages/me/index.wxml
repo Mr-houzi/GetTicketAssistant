@@ -1,0 +1,57 @@
+<!--我的-->
+<view class="containter">
+    <view class="header">
+        <view class="header-pic">
+            <image src="{{userInfo.avatarUrl}}"></image>
+        </view>
+        <view class="header-text">
+            <text class='text1'>{{userInfo.nickName}}</text>
+            <text class='text2'>{{number}}</text>
+        </view>
+    </view>
+    
+    <!-- <view class="function">
+        <view class="function-list" style="background-color:whitesmoke"></view>
+    </view> -->
+    <view class="function">
+        <navigator url="/pages/me/bindingNum/bindingNum" open-type="navigate">
+        <view class="function-list">
+            <image src="{{iconEdit}}"></image>
+            <text>绑定学号</text>
+        </view>
+        </navigator>
+        <!--<view class="line"></view>-->
+    </view>
+    <view class="function">
+        <navigator url="/pages/me/myTicket/myTicket" open-type="navigate">
+        <view class="function-list">
+            <image src="{{iconCard}}"></image>
+            <text>我的领票</text>
+        </view>
+        </navigator>
+        <!--<view class="line"></view>-->
+    </view>
+    <view class="function">
+        <view class="function-list">
+            <image src="{{iconSurvey}}"></image>
+            <text>问题反馈</text>
+        </view>
+        <!--<view class="line"></view>-->
+    </view>
+    <view class="function">
+        <navigator url="/pages/me/about/about" open-type="navigate">
+        <view class="function-list">
+            <image src="{{iconService}}"></image>
+            <text>关于我们</text>
+        </view>
+        </navigator>
+        <!--<view class="line"></view>-->
+    </view>
+
+    <!--<view class="button">
+        <button size="default" type="primary" form-type="submit"></button>
+    </view>-->
+    
+
+
+</view>

@@ -1,0 +1,6 @@
+.about{
+    margin: 100rpx;
+}
+.about text{
+    line-height: 100rpx;
+}

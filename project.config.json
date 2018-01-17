@@ -1,0 +1,10 @@
+{
+	"client": "./client",
+	"svr": "./server",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "XXX",
+	"projectname": "%E8%BD%AF%E4%BB%B6%E5%AD%A6%E9%99%A2%E5%8A%A9%E6%89%8B",
+	"condition": {}
+}
