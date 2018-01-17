@@ -1,0 +1,54 @@
+{
+  "pages":[
+    
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/honor/index",
+    "pages/me/index",
+
+    "pages/index/content/ac_content", 
+    "pages/index/selectWay/selectWay",
+    "pages/index/ticket/ticket", 
+    "pages/index/ticketDouble/ticketDouble",
+    "pages/index/qrcode/qrcode",
+    
+
+    "pages/honor/kechuang/kechuang",
+    "pages/honor/wenyi/wenyi",
+    "pages/honor/tiyu/tiyu",
+
+    "pages/me/about/about",
+    "pages/me/bindingNum/bindingNum",
+    "pages/me/myTicket/myTicket"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "领票小助手",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+
+  "tabBar":{  
+    "color": "gray",  
+    "selectedColor": "deepskyblue",  
+    "borderStyle": "#fff",
+    "list": [{  
+      "selectedIconPath": "/resource/icon/home.png",  
+      "iconPath": "/resource/icon/sr-home.png",  
+      "pagePath": "pages/index/index",  
+      "text": "首页"  
+    }, {  
+      "selectedIconPath": "/resource/icon/medal-b.png",  
+      "iconPath": "/resource/icon/medal.png",  
+      "pagePath": "pages/honor/index",  
+      "text": "使用手册"  
+    },{  
+      "selectedIconPath": "/resource/icon/account-filling.png",  
+      "iconPath": "/resource/icon/account.png",  
+      "pagePath": "pages/me/index",  
+      "text": "我的"  
+    }]  
+  } 
+}

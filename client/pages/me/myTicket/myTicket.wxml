@@ -1,0 +1,14 @@
+<!-- 我的-我的领票 -->
+<view class="title">门票二维码</view>
+<view class="qrcode">
+    <image src="{{qrcode}}"></image>
+</view>
+<view class="location">
+    <text>{{location}}</text>
+</view>
+
+<view class="location">
+    <text wx:if="{{ticketStatus == 1}}"> 已检票 </text>
+    <text wx:elif="{{ticketStatus == 0}}"> 未检票 </text>
+    <text wx:else>未领票</text>
+</view>

@@ -1,0 +1,9 @@
+
+.lp-button,.bl-button{
+  width: 400rpx;
+  height: 50%;
+  margin: 200rpx auto;
+  /* background-color: gray; */
+  border-radius: 0.5rem;
+  
+}

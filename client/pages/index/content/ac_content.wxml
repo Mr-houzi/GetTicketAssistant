@@ -1,0 +1,27 @@
+<!--活动内容页-->
+<view class="containter">
+    <view class="ac-images">
+        <image src="{{activity_img}}" style="width: {{imageWidth}}px;" bindload="imageLoad"></image>
+    </view>
+
+    <view class="ac-title">
+        <text>{{activity_title}}</text>
+    </view>
+
+    <view class="ac-info">
+        <view class="ac-info-date">
+            <text>时间</text>
+            <text>{{activity_time}}</text>
+        </view>
+        <view class="line"></view>
+        <view class="ac-info-location">
+            <text>地点</text>
+            <text>{{activity_position}}</text>
+        </view>
+    </view>
+
+    <view class="ac-button">
+        <button size="default" type="primary" bindtap="jumpToLP" form-type="submit">领票</button>
+    </view>
+
+</view>

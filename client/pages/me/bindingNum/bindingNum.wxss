@@ -1,0 +1,21 @@
+.form{
+  background-color: gray;
+}
+.form-number,.form-password{
+  height: 80rpx;
+  border: black 1rpx solid;
+  border-radius: 0.5em;
+  font-size: 30rpx;
+  margin-right: 40rpx;
+  margin-left: 40rpx;
+  padding-left: 30rpx;
+}
+.form text{
+  font-size: 40rpx;
+  margin: 40rpx;
+  display: block;
+}
+.form button{
+  width: 400rpx;
+  margin: 40rpx auto;
+}
