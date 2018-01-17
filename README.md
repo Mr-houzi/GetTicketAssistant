@@ -41,6 +41,8 @@
 
 <a name="UI"></a>
 ## UI 界面
+代码写的差不要紧，界面写的丑也不要紧，强行P一下效果图，掩饰一波尴尬￣□￣｜｜
+
 ![](https://github.com/Mr-houzi/GetTicketAssistant/blob/master/doc/UI-render.jpg)
 
 <a name="To"></a>
