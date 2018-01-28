@@ -2,6 +2,8 @@
 
 ![](https://img.shields.io/badge/language-php-green.svg)
 
+![](https://img.shields.io/github/release/qubyte/rubidium.svg)
+
 ## Contents 目录
 - [Introduction 介绍](#Introduction)
 - [Use 使用](#Use)
