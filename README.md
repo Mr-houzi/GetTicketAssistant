@@ -1,8 +1,8 @@
 # GetTicketAssistan 微信小程序领票小助手
 
-![](https://img.shields.io/badge/language-php-green.svg)
-
-![](https://img.shields.io/github/release/qubyte/rubidium.svg)
+![](https://img.shields.io/badge/language-javascript-orange.svg)&nbsp;
+![](https://img.shields.io/badge/language-php-green.svg)&nbsp;
+![](https://img.shields.io/badge/release-v2.1-blue.svg)
 
 ## Contents 目录
 - [Introduction 介绍](#Introduction)
