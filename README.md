@@ -1,5 +1,7 @@
 # GetTicketAssistan 微信小程序领票小助手
 
+![](https://img.shields.io/badge/language-php-green.svg)
+
 ## Contents 目录
 - [Introduction 介绍](#Introduction)
 - [Use 使用](#Use)
